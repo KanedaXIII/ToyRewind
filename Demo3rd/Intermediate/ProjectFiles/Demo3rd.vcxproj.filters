@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Demo3rd.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{66E14F78-E8EC-467B-A6B0-4CE9676094C5}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Demo3rd.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\Demo3rdEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{975F100C-72D3-4016-8431-B08EFC8997AB}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Demo3rd">
+			<UniqueIdentifier>{5B6C9C31-BEC7-421B-B789-3DAA04DE8CD6}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Demo3rd\Demo3rd.Build.cs">
+			<Filter>Source\Demo3rd</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Demo3rd\Demo3rd.cpp">
+			<Filter>Source\Demo3rd</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Demo3rd\Demo3rd.h">
+			<Filter>Source\Demo3rd</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Demo3rd\Demo3rdCharacter.cpp">
+			<Filter>Source\Demo3rd</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Demo3rd\Demo3rdCharacter.h">
+			<Filter>Source\Demo3rd</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Demo3rd\Demo3rdGameMode.cpp">
+			<Filter>Source\Demo3rd</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Demo3rd\Demo3rdGameMode.h">
+			<Filter>Source\Demo3rd</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
